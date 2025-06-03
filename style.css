@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  /* Smooth mint green to light coral gradient */
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.weather-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffeaa7;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#weatherResult {
+  margin-top: 20px;
+}
+
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.weather-card img {
+  width: 80px;
+  height: 80px;
+}
